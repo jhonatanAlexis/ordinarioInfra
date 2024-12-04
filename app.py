@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/saludar', methods=["GET"])
 def saludar():
-    return jsonify({"mensaje": "Hola, mundo!"})
+    return jsonify({"mensaje": "Hola, mundo OTRA VEZ!"})
 
 if __name__ == "__main__":
     app.run(debug=True)  
